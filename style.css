@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  box-sizing: border-box;
+} 
+
+html, body {
+  height: 100%;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  background: #eee;
+}
+
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  
+}
+
+button {
+  cursor: pointer;
+}
+
+header {
+  height: 64px;
+  display: flex;
+  background: #fff;
+  padding: 0 45px;
+  align-items: center;
+  justify-content: space-between;
+ 
+}
+
+.logo {
+  display: flex;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.menu ul {
+  display: flex;
+
+}
+
+.menu li{
+  margin: 0 5px;
+  font-weight: bold;
+ }
+
+main {
+
+}
+
+ .slide {
+  background-image: url(slide-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slide div {
+  padding: 20px 40px;
+  background-color: #fff;
+  font-weight: bold;
+ 
+}
+
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  width: 250px;
+  margin: 30px;
+}
+
+.card-slide {
+  width: 100%;
+}
+
+.card-body {
+  text-align: center;
+  padding: 15px 25px;
+  background-color: #fff;
+}
+
+.card-content h1{
+  font-size: 20px;
+  margin: 0;
+}
+
+.card-content h2 {
+  margin-top: 10px;
+  font-size: 12px;
+  font-weight: 100;
+  color: #ddd
+}
+.card-content p {
+  font-size: 12px;
+  margin: 10px
+}
+
+.card-footer {
+  display: flex;
+  font-size: 12px;
+  justify-content: space-between;
+  color: #ddd;
+}
+.card-footer a {
+  text-decoration: none;
+  color: #ddd;
+}
